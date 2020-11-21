@@ -11,11 +11,11 @@ namespace Classe__
         static void Main(string[] args)
         {
             Computer Acer = new Computer("Acer 5000", 500);
-            Console.WriteLine("Nome > " + Acer.getName().ToString());
+            Console.WriteLine("Nome > " + Acer.getName().ToString() + "€");
             Console.WriteLine("Prezzo > " + Acer.getPrezzo().ToString());
 
             Computer Lenovo = new Computer("Lenovo xp", 1500);
-            Console.WriteLine("Nome > " + Lenovo.getName().ToString());
+            Console.WriteLine("Nome > " + Lenovo.getName().ToString() + "€");
             Console.WriteLine("Prezzo > " + Lenovo.getPrezzo().ToString());
             Console.ReadKey();
 
