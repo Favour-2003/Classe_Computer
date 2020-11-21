@@ -14,6 +14,11 @@ namespace Classe__
             Console.WriteLine("Nome > " + Acer.getName().ToString());
             Console.WriteLine("Prezzo > " + Acer.getPrezzo().ToString());
 
+            Computer Lenovo = new Computer("Lenovo xp", 1500);
+            Console.WriteLine("Nome > " + Lenovo.getName().ToString());
+            Console.WriteLine("Prezzo > " + Lenovo.getPrezzo().ToString());
+            Console.ReadKey();
+
             Console.ReadKey();
         }
     }
