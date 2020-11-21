@@ -10,11 +10,13 @@ namespace Classe__
     {
         protected string name;
         protected float prezzo;
+        protected string color;
 
-        public Computer(string n, float p)
+        public Computer(string n, float p, string c)
         {
             name   =  n;
             prezzo = p;
+            color = c;
         }
 
         public string getName()
@@ -25,6 +27,11 @@ namespace Classe__
         public float getPrezzo()
         {
             return prezzo;
+        }
+
+        public string getColor()
+        {
+            return color;
         }
     }
 }
