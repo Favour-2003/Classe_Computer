@@ -14,6 +14,9 @@ namespace Classe__
             Console.WriteLine("Nome > " + Acer.getName().ToString());
             Console.WriteLine("Prezzo > " + Acer.getPrezzo().ToString());
 
+            Computer Hp = new Computer("Hp Notebook", 1000);
+            Console.WriteLine("Nome > " + Hp.getName().ToString());
+            Console.WriteLine("Prezzo > " + Hp.getPrezzo().ToString());
             Console.ReadKey();
         }
     }
